@@ -76,8 +76,8 @@ def multicast_province(config_file):
     output = []
     for ip in all_ip_ports:
         output.extend([channel.replace("ipipip", f"{ip}") for channel in channels])    
-    with open(f"组播_{province}{operator}.txt", 'w', encoding='utf-8') as f:
-        f.write(f"{province}{operator}-组播,#genre#\n")
+    with open(f"zubo_{province}{operator}.txt", 'w', encoding='utf-8') as f:
+        f.write(f"{province}{operator}-zubo,#genre#\n")
         for channel in output:
             f.write(channel)
 for config_file in glob.glob(os.path.join('ip', '*_config.txt')):
