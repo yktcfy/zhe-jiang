@@ -207,4 +207,35 @@ cat tmp_3.txt >> tmp_all.txt
 grep -vE '/{3}' tmp_all.txt > "txt/${city}.txt"
 rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_all.txt
 echo "${city} 测试完成，生成可用文件：'txt/${city}.txt'"
-#--------合并所有城市的txt文件---------
+#--------------------合并所有城市的txt文件为:   zubo.txt-----------------------------------------
+
+echo "天津,#genre#" >zubo.txt
+cat txt/Tianjin_liantong.txt >>zubo.txt
+echo "浙江,#genre#" >>zubo.txt
+cat txt/Zhejiang_dianxin.txt >>zubo.txt
+echo "北京,#genre#" >>zubo.txt
+cat txt/Beijing_liantong.txt >>zubo.txt
+echo "上海,#genre#" >>zubo.txt
+cat txt/Shanghai_dianxin.txt >>zubo.txt
+echo "广东,#genre#" >>zubo.txt
+cat txt/Guangdong_dianxin.txt >>zubo.txt
+echo "江苏,#genre#" >>zubo.txt
+cat txt/Jiangsu_dianxin.txt >>zubo.txt
+echo "安徽,#genre#" >>zubo.txt
+cat txt/Anhui_dianxin.txt >>zubo.txt
+echo "湖北,#genre#" >>zubo.txt
+cat txt/Hubei_dianxin.txt >>zubo.txt
+echo "重庆,#genre#" >>zubo.txt
+cat txt/Chongqing_liantong.txt >>zubo.txt
+echo "湖南,#genre#" >>zubo.txt
+cat txt/Hunan_dianxin.txt >>zubo.txt
+echo "河南,#genre#" >>zubo.txt
+cat txt/Henan_liantong.txt >>zubo.txt
+echo "河北,#genre#" >>zubo.txt
+cat txt/Hebei_liantong.txt >>zubo.txt
+echo "KR,#genre#" >>zubo.txt
+cat txt/KR_SK.txt >>zubo.txt
+
+
+for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
+
