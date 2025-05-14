@@ -38,7 +38,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           cat zubo.txt > zubo_备份.txt
-          bash ./zubo2.sh
+          bash ./HBcaijiip.sh
           
       - name: 更新组播源
         run: |
