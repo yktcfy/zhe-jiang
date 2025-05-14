@@ -1,3 +1,0 @@
-KR_SK-组播1,#genre#
-KR_SK-组播2,#genre#
-KR_SK-组播3,#genre#
