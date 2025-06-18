@@ -96,8 +96,6 @@ http://ipipip/rtp/233.50.200.120:5140
 http://ipipip/rtp/233.50.200.122:5140
 #EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://live.fanmingming.com/tv/乐游.png" group-title="卫视高清",乐游
 http://ipipip/rtp/233.50.200.148:5140
-#EXTINF:-1 tvg-id="中国教育4台" tvg-name="中国教育4台" tvg-logo="https://live.fanmingming.com/tv/中国教育4台.png" group-title="卫视高清",中国教育4台
-http://ipipip/rtp/233.50.200.162:5140
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓.png" group-title="卫视高清",快乐垂钓
 http://ipipip/rtp/233.50.200.123:5140
 #EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://live.fanmingming.com/tv/茶.png" group-title="卫视高清",茶
