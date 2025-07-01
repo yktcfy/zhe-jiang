@@ -100,3 +100,9 @@ http://ipipip/rtp/233.50.200.148:5140
 http://ipipip/rtp/233.50.200.123:5140
 #EXTINF:-1 tvg-id="茶" tvg-name="茶" tvg-logo="https://live.fanmingming.com/tv/茶.png" group-title="卫视高清",茶
 http://ipipip/rtp/233.50.201.188:5140
+#EXTINF:-1 tvg-id="魅力足球" tvg-name="魅力足球" tvg-logo="https://live.fanmingming.com/tv/魅力足球.png" group-title="央视高清",魅力足球
+http://ipipip/rtp/233.50.200.176:5140
+#EXTINF:-1 tvg-id="都市剧场" tvg-name="都市剧场" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png" group-title="卫视高清",都市剧场
+http://ipipip/rtp/233.50.201.190:5140
+#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="央视高清",欢笑剧场
+http://ipipip/rtp/233.50.200.52:5140
